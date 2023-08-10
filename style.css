@@ -1,0 +1,45 @@
+html {
+    background-position: center;
+    
+}
+
+body {
+    margin: 0;
+    padding: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-image: url("../img/fondo-hormiga.svg");
+    background-repeat: no-repeat;
+    background-color: #ebeca9;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+.navegacion {
+    list-style-type: none;
+    margin: auto;
+    padding: 0px;
+    border-radius: 5px;
+    width: 200px;
+    background-color:rgb(252, 243, 251);
+
+
+}
+
+.opcion a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Cambia el color del link cuando pasa el cursor por encima */
+.opcion a:hover {
+    background-color: #f2e7e7;
+    border-radius: 5px;
+    color: white;
+}
+p{
+     font-weight: bold;
+}
